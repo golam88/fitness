@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+margin:0;
+padding:0;
+  
+}*
+/*Typography Start*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  transition:0.3s;
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+ p{
+  line-height:150%;
+  margin-bottom:1em;
+} 
+.Full_wrapper{
+  width:100%;
+  height:auto;
+}
+.half_wrapper{
+  width:960px;
+  display:block;
+  margin:0 auto;
+}
+.fix{
+  overflow:hidden;
+}
+.aligncenter{
+  display:block;
+  margin:0 auto;
+}
+.floatleft{
+  float:left;
+}
+.floatright{
+  float:right;
+}
+a{
+  transition:all 0.3s;
+}
+
+
+.head_bg{
+  background:#171819;
+}
+.logo_nav_social {
+  height:70px;
+}
+.logo_nav_social .logo{
+  width:210px;
+  float: left;
+  padding-top:10px;
+  display: block;
+}
+.logo_nav_social .logo a{
+  text-decoration: none;
+  font-weight:500;
+  color:#fff;
+  font-size:30px;
+}
+.logo_nav_social .logo a:hover{
+  color: #F13A12;
+}
+.logo_nav_social .menu{
+  float: left;
+  padding-top: 16px;
+  margin-left: 185px;
+}
+.logo_nav_social .menu ul{
+  list-style: none;
+}
+.logo_nav_social .menu ul li{
+  float:left;
+}
+.logo_nav_social .menu ul li a{
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.logo_nav_social .menu ul li a:hover{
+  color: #F13A12;
+}
+.logo_nav_social .menu ul li  .active{
+  color: #F13A12;
+}
+.logo_nav_social .social{
+  float: right;
+  padding-top: 18px;
+}
+.logo_nav_social .social ul{
+  list-style: none;
+}
+.logo_nav_social .social ul li{
+  float: left;
+  
+  padding: 10px 5px;
+}
+.logo_nav_social .social ul li a{
+  display: block;
+  text-decoration: none;
+  color: #FBFDFA;
+}
+.logo_nav_social .social ul li a:hover{
+  color: #F13A12;
+}
+.bannerbg{
+  background: url('images/hero-bg.jpg')no-repeat;
+  background-size: 100% ;
+  height:899px;
+  
+}
+.bgbannercolor{
+  background-color: rgba(0,0,0,0.7);
+  height:899px;
+}
+.banner{
+  text-align: center;
+  margin-top: 14em;
+}
+.banner p{
+  color: #ddd;
+  margin: 1em 1em;
+  font-size: 1.5em;
+}
+.banner h1{
+  color: #fff;
+  margin-bottom:1em;
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.banner_btn{
+  margin-top:0;
+}
+.banner_btn .btn1{
+  margin-right: 0.6em;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  background-color: rgba(0,0,0,0.2);
+  font-size: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+  outline:none;
+}
+.banner_btn .btn1:hover{
+  color: #F13A12;
+  /* border: 1px solid #F13A12; */
+}
+.banner_btn .btn2{
+  margin-right: 0.6em;
+  padding: 10px 20px;
+  color: #F13A12;
+  border: 1px solid #F13A12;;
+  background-color: rgba(0,0,0,0.2);
+  font-size: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+  outline: none;
+}
+.banner_btn .btn2:hover{
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+}
+.memberbg{
+  background: #17181A;
+}
+.membership_woriking .membership{
+  width:400px;
+  border-right: 1px solid #ddd;
+  padding:0 40px;
+  padding-left: 60px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.membership_woriking .membership h2{
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.membership_woriking .membership p{
+  color: #fff;
+  text-align: justify;
+  
+}
+.gray{
+  color: #C6C1BE; 
+}
+.membership_woriking .membership .member_btn{
+  width:400px ;
+  height: 30px;
+  background-color:#F13A12 ;
+  border: none;
+}
+.membership_woriking .membership .member_btn a{
+  text-decoration: none;
+  color: #fff;
+}
+.membership_woriking .woriking{
+  width:300px;
+  padding:0 40px;
+  
+  padding-left: 60px;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+.membership_woriking .woriking h2{
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.membership_woriking .woriking p{
+  color: #fff;
+  text-align: justify;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+.about-bg{
+  background: #F9F9F9;
+}
+.instructor{
+  margin-left: 120px;
+}
+.about_us{
+  margin: 220px 0;
+}
+.about_gymso{
+  width:330px;
+}
+.about_gymso h2{
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+.about_gymso p{
+  font-size: 1.2em;
+  color: #666666;
+}
+.yoga{
+  width: 202px;
+  background: #fff;
+  margin-left: 50px;
+  box-shadow: 6px 6px 6px 6px  #F9F9F9;
+}
+.yoga img{
+  width: 202px;
+}
+.yoga_content h2{
+  margin: 0;
+  margin-top: 5px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.yoga_content p{
+  margin: 0;
+  padding-left: 10px;
+}
+.yoga_social{
+  float: left;
+  margin-top:10px;
+  margin-left: 30px;
+}
+.yoga_social ul{
+  list-style:none;
+}
+.yoga_social ul li a{
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+.yoga_social ul li a:hover{
+  color: #F13A12;
+}
+.fa-phone{
+  color: greenyellow;
+  margin-right: 5px;
+}
+.class_header{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.class_header p{
+  font-size: 23px;
+  color:#9A9A9A;
+  margin-bottom: .5rem;
+  padding-top: 95px;
+}
+.class_header h1{
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.course{
+  float: left;
+  margin-right: 20px;
+  box-shadow: 6px 6px 6px 6px #F9F9F9;
+}
+
+.course img{
+  width: 300px;
+  height: auto;
+}
+.course h3{
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+.course p{
+  font-size: 20px;
+}
+.course .c-der{
+  font-size: 20px;
+  color: #9A9A9A;
+}
+.course .rate{
+  float: right;
+  margin-top: -65px;
+  border: 1px solid #F13A12;
+  border-radius: 50%;
+  font-size: 30px;
+  background-color:#F13A12;
+  padding: 8px;
+}
+.schedules-bg{
+  background-color: #171819;
+  margin-top: 100px;
+}
+.schedules{
+  padding: 100px 0;
+}
+.schedules_header{
+  text-align: center;
+  padding:5px 0;
+}
+.schedules_header p{
+  color: #818181;
+  font-size: 23px;
+  margin: 5px 0;
+}
+.schedules_header h1{
+  color: #fff;
+  font:normal 800 40px/10px open sans;
+  margin: 20px 0;
+  margin-bottom: 70px;
+}
+.schedules_table table{
+  margin: 0 auto;
+  text-align: center;
+  width: 960px;
+  height: 400px;
+  table-layout: fixed;
+  color: #fff;
+}
+.schedules_table table, th ,td{
+  border: 1px solid #212122;
+  border-collapse: collapse;
+  padding: 10px 0;
+  font: normal 700 15px open sans;
+
+}
+.schedules_table table .tr1{
+  background-color: #F13A12;
+}
+.schedules_table table .td_c{
+  color: #666666;
+  font-weight: none;
+  font-size: 12px;
+}
+footer{
+  padding: 70px 0px ;
+}
+
+.contacts{
+  float: left;
+  width:500px;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.contacts h2{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+.contacts input{
+  width: 400px;
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.contacts input[type="text"]{
+  height: 150px;
+}
+.contacts button{
+  width:400px ;
+  height: 45px;
+  cursor: pointer;
+  background-color: #171819;
+  border: none;
+  color: #ddd;
+  font-size: 15px;
+  font-weight:bold;
+  transition: 0.4s ease-out;
+}
+.contacts button:hover{
+  background-color: #F13A12;
+  outline: none;
+}
+.find_us{
+  float: right;
+  display: block;
+  width: 400px;
+  height: auto;
+  margin-bottom: 100px;
+} 
+.find_us h2{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+}
+.find_us .location-icon{
+  color: #F13A12;
+}
+.find_us .address{
+  color: #666666;
+}
+.find_us iframe{
+  margin-top: 50px;
+ 
+  height: 250px;
+  display:inline-block ;
+}
+.copyright{
+  float: left;
+  display: block;
+  margin-left: 200px;
+  margin-top: 17px;
+  margin-bottom: 100px;
+}
+.footer_contact{
+  float: left;
+  display: block;
+  margin-left: 100px;
+ 
+}
+.footer_contact p a{
+  text-decoration: none;
+  color: #666666;
+}
+.footer_contact p .phone{
+  color: #f00673;
+}
+.g-icon, .p-icon{
+  color: #F13A12;
+}
+.is-sticky{
+  z-index: 100;
+}
